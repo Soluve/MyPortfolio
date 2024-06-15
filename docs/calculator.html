@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h3 class="header-text">HTML Calculator</h3>
+    <div class="calculator-container">
+        <div id="screen" class="screen">0</div>
+        <div class="btn-container">
+            <button onclick="appendTextToScreen('AC')" class="bg-light-grey clear-btn">AC</button>
+            <button onclick="appendTextToScreen('+')" class="bg-light-grey">+</button>
+            <button onclick="appendTextToScreen('-')" class="bg-light-grey">-</button>
+            <button onclick="appendTextToScreen('÷')" class="bg-orange">÷</button>
+            <button onclick="appendTextToScreen('1')" class="bg-dark-grey">1</button>
+            <button onclick="appendTextToScreen('2')" class="bg-dark-grey">2</button>
+            <button onclick="appendTextToScreen('3')" class="bg-dark-grey">3</button>
+            <button onclick="appendTextToScreen('x')" class="bg-orange">&times;</button>
+            <button onclick="appendTextToScreen('4')" class="bg-dark-grey">4</button>
+            <button onclick="appendTextToScreen('5')" class="bg-dark-grey">5</button>
+            <button onclick="appendTextToScreen('6')" class="bg-dark-grey">6</button>
+            <button onclick="calculateSquareroot('√')" class="bg-orange">√</button>
+            <button onclick="appendTextToScreen('7')" class="bg-dark-grey">7</button>
+            <button onclick="appendTextToScreen('8')" class="bg-dark-grey">8</button>
+            <button onclick="appendTextToScreen('9')" class="bg-dark-grey">9</button>
+            <button onclick="displayPercentage('%')" class="bg-orange">%</button>
+            <button onclick="appendTextToScreen('0')" class="bg-dark-grey">0</button>
+            <button onclick="appendTextToScreen('00')" class="bg-dark-grey">00</button>
+            <button onclick="appendTextToScreen('.')" class="bg-dark-grey">&#x2022;</button>
+            <button onclick="calculate()" class="bg-orange">=</button>
+        </div>
+    </div>
+<script src="calculator.js"></script>
+</body>
+</html>

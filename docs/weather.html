@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="weather.css">
+    <link rel="icon" href="images/WeatherHelp.png" type="image/x-icon">
+    <title>WeatherHelp</title>
+</head>
+<body class="body-bg">
+    <div class="container">
+        <img src="images/WeatherHelp.png" alt="logo" class="img-fluid logo-size">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3">
+                    <input type="text" id="location" class="form-control" placeholder="Enter Location"><br>
+                    <button id="getWeatherBtn" class="btn btn-light weather-col">Check Weather</button>
+                </div>
+                <div class="container border-col">
+                    <div id="weatherData"></div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    <script src="weather.js"></script>
+</body>
+</html>
