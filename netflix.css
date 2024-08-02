@@ -1,0 +1,242 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 25px;
+    background-color: grey;
+    margin: 0 auto;
+}
+.bg-head{
+    background-image: url(images/NG-en-20240624-POP_SIGNUP_TWO_WEEKS-perspective_WEB_2cdfbab1-0603-46ea-9e4f-ab2112dac99b_small.jpg), radial-gradient(circle at center, rgba(0, 0, 0, 0.356) 0%, rgba(0, 0, 0, 0.849) 70%);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 600px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: ;
+}
+.head-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    
+    
+}   
+.center-text{
+    text-align: center;
+    padding: 80px 150px;
+}
+.container{
+    
+}
+
+button{
+    background-color: rgb(230, 9, 9);
+    color: white;
+    border-style: none;
+}
+
+.btn-sign-in{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-start {
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.textarea-start{
+    padding: 20px 50px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+}
+
+.watch-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.flex-box{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100PX 100px;
+    margin-bottom: 5px;
+}
+
+.flex-item{
+     
+    width: 50%;
+    
+}
+.video-container{
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+}
+ .video-container img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+ }
+ .video-container video{
+    position: absolute;
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+ }
+
+ img{
+    width: 100%;
+    height: auto;
+ }
+.accordion-item{
+    background-color: grey;
+    color: white;
+    padding: 40px;
+    margin: 40px 0;
+     
+}
+.accordion-item details{
+    background-color: grey;
+}
+.accordion-item summary{
+    background-color: grey;
+}
+.footer-container{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 50px;
+    margin-bottom: 5px;
+    gap: 120px;
+}
+.footer-column{
+    
+    font-size: 15px;
+    font-weight: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.footer-column a{
+    color: white;
+}
+.input-footer{
+    padding: 10px 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .center-text{
+        padding: 40px 20px;
+    }
+    .flex-item{
+        width: 100%;
+        text-align: center;
+    }
+    .video-container video{
+        position: absolute;
+        top: 20;
+        left: 30;
+        width: 39%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 0px;
+     }
+}
+
+@media screen and (max-width: 425px) {
+    body{
+        font-size: 15px;
+    }
+    .center-text{
+         
+         padding: 0 20px;
+          
+    }
+    .textarea-start{
+        padding: 10px 0;
+    }
+    .btn-start{
+        padding: 10px;
+    }
+    .wrapper{
+        justify-content: space-evenly;
+        gap: 10px;
+       
+    }
+     
+    .flex-box{
+        padding: 40px;
+    }
+    .flex-item{
+        width: 100%;
+        text-align: center;
+    }
+    .video-container{
+        padding: 0;
+    }
+    .video-container img{
+        width: 80vw;
+    } 
+    .video-container video{
+        width: 65%;
+        position: relative;
+        top: 20;
+        margin-top: 60px;
+        margin-left: 0;
+        height: auto;
+    
+    }
+    }
