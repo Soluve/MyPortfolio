@@ -26,7 +26,7 @@ function calculate() {
     
 
     // Replace 'x' and '÷' with '*' and '/'
-    if (screen.textContent.includes('x') || screen.textContent.includes('/') || screen.textContent.includes('%')) {
+    if (screen.textContent.includes('x') || screen.textContent.includes('÷') || screen.textContent.includes('%')) {
         screen.textContent = screen.textContent.replace(/x/g, '*').replace(/÷/g, '/');
         screen.textContent = screen.textContent.replace(/%/g, '/100')
     }

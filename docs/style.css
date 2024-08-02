@@ -187,8 +187,7 @@
 
 .btn-col{
   text-decoration: none;
-  color: white;
-  text-emphasis-color: white;
+  -webkit-text-fill-color: white;
 }
 .tran:hover
 {

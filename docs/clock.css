@@ -1,0 +1,43 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .clock-face {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: relative;
+  }
+  
+  .hand {
+    position: absolute;
+    width: 5px;
+    background-color: black;
+    bottom: 50%;
+    transform-origin: bottom;
+  }
+  
+  .hour-hand {
+    width: 8px;
+  }
+  
+  .minute-hand {
+    width: 6px;
+  }
+  
+  .second-hand {
+    width: 3px;
+  }
+  
+  .digital-clock {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  
