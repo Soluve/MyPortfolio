@@ -11,7 +11,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap" rel="stylesheet">
   <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css" >
-   
+  <style>
+      .btn-custom-outline:focus,
+      .btn-custom-outline:active {
+          outline: none;
+          color: rgb(7, 250, 169);
+          box-shadow: 0 0 0 0.25rem rgba(5, 20, 15, 0.5);
+    }
+</style>
 </head>
 
 <body class="body-bg bk">
@@ -77,8 +84,8 @@
           </div>
         </div>
         <div class="d-grid gap-2 d-sm-flex">
-          <button type="button" class="btn btn-outline-info tran btn-lg px-4 me-sm-3 fw-bold" ><a href="#portfolio" class="active btn-col">Portfolio</a></button>
-          <a href="./My CV.docx" download="Akamo-Philip-CV.docx" class="btn-col"><button type="button" class="btn btn-outline-info tran btn-lg px-4 me-sm-3 fw-bold">Download CV<img src="images/download.png" class="download-img"></button></a> 
+          <button type="button" class="btn btn-custom-outline tran btn-lg px-4 fw-bold" ><a href="#portfolio" class="active btn-col">Portfolio</a></button>
+          <button type="button" class="btn btn-custom-outline tran btn-lg px-4 fw-bold"><img src="images/download.png" class="download-img"><a href="./My CV.docx" download="Akamo-Philip-CV.docx" class="btn-col">Download CV</a></button> 
            
         </div>
       </div>
@@ -113,7 +120,7 @@
             <div class="accordion accordion-flush " id="accordionFlushExample">
               <div class="accordion-item glass-bg">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <button class="accordion-button btn btn-custom-outline" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     <h2>Front-End Technologies</h2>
                   </button>
                 </h2>
@@ -141,7 +148,7 @@
               </div>
               <div class="accordion-item glass-bg">
                 <h2 class="accordion-header">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <button class="accordion-button collapsed btn-custom-outline" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                     <h2>Back-End Technologies</h2>
                   </button>
                 </h2>
@@ -179,7 +186,7 @@
             <img src="images/WeatherHelp.png" class="img-fluid" alt="WeatherHelp"><br><br>
             <h3>WeatherHelp App</h3>
           <p>This is a Weather web Application that provides weather information for users, it was developed by the implementation JavaScript to fetch data through Openweather API </p>
-          <button type="button" class="btn btn-outline-info tran btn-lg px-4 me-sm-3 fw-bold"><a href="weather.html" target="_blank" class="btn-col">Open</a></button>
+          <button type="button" class="btn btn-custom-outline tran btn-lg px-4 fw-bold"><a href="weather.html" target="_blank" class="btn-col">Open</a></button>
           </div>
         </div>
       </div>
@@ -189,7 +196,7 @@
             <img src="images/web calculator.PNG" class="img-fluid" alt="Web Calculator"><br><br>
             <h3>Web calculator</h3>
           <p>This is an HTML Calculator that implements appropriate CSS usage for responsive user interface and JavaScript for handling calculations.</p>
-          <button type="button" class="btn btn-outline-info tran btn-lg px-4 me-sm-3 fw-bold"><a href="calculator.html" target="_blank" class="btn-col">Open</a></button>
+          <button type="button" class="btn btn-custom-outline tran btn-lg px-4 fw-bold"><a href="calculator.html" target="_blank" class="btn-col">Open</a></button>
           </div>
         </div>
       </div>
@@ -199,7 +206,7 @@
             <img src="images/netflix.PNG" class="img-fluid" alt="Web Calculator"><br><br>
             <h3>Netflix Landing page</h3>
           <p>This is a clone of the Netflix Landing page, designed using CSS and appropriate use of media queries to make it responsive to different screen sizes</p>
-          <button type="button" class="btn btn-outline-info tran btn-lg px-4 me-sm-3 fw-bold"><a href="netflix.html" target="_blank" class="btn-col">Open</a></button>
+          <button type="button" class="btn btn-custom-outline tran btn-lg px-4 fw-bold"><a href="netflix.html" target="_blank" class="btn-col">Open</a></button>
           </div>
         </div>
       </div>
@@ -217,7 +224,8 @@
         <a href="mailto: pakamo20@gmail.com" target="_blank" class="btn-col"><img src="images/email.png" height="50" width="50">pakamo20@gmail.com</a><br>
         <a href="https://wa.me/2348029021698" target="_blank" class="btn-col" ><img src="images/whatsapp.png" height="50" width="50">WhatsApp</a><br>
         <a href="https://www.linkedin.com/in/akamo-philip-403711286" target="_blank" class="btn-col" ><img src="images/linkedin.png" height="50" width="50">Akamo Philip</a><br>
-        <a href="https://x.com/Soluvepyrex?t=Y52QZCKswmi0k_pysiLCYg&s=03" target="_blank" class="btn-col" ><img src="images/twitter.png" height="50" width="50">Soluve Pyrex</a>
+        <a href="https://x.com/Soluvepyrex?t=Y52QZCKswmi0k_pysiLCYg&s=03" target="_blank" class="btn-col" ><img src="images/1725374683twitter-x-logo.png" height="50" width="50">Soluve Pyrex</a><br>
+        <a href="https://github.com/Soluve" target="_blank" class="btn-col" ><img src="images/github-removebg-preview.png" height="50" width="50">Soluve-Pyrex</a>
         
         
         

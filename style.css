@@ -42,33 +42,15 @@
       color: white;
       font-size: 20px;
     }
-    .but-1
-    {
-      background-color: rgb(5, 20, 15);
-      border: solid rgb(5, 20, 15);
-      height: 45px;
-      padding-top: 5px;
-      border-radius: 40px;
-      text-align: center;
-    }
-    .but-col-1
-    {
-      color: wh;
-      font-size: 20px;
-      background-color: white;
-    }
-    .but-col-2
-    {
-      color: rgb(7, 250, 169);
-      font-size: 20px;
-      background-color: white;
-    }
-    .btn-outline-info{
+     
+     
+    .btn-custom-outline{
       border-color: rgb(5, 20, 15);
       border-width: 2px;
       background-color: rgb(5, 20, 15);
       color: white;
     }
+     
     .lit-break
     {
       padding-top:  px;
