@@ -42,8 +42,14 @@
       color: white;
       font-size: 20px;
     }
-     
-     
+    .accordion-button{
+      color: rgb(7, 250, 169) !important;
+    }
+    .accordion-button:focus,
+    .accordion-button:active{
+      outline: rgb(5, 20, 15);
+      color: rgb(7, 250, 169);
+    }
     .btn-custom-outline{
       border-color: rgb(5, 20, 15);
       border-width: 2px;
